@@ -144,50 +144,68 @@ export const experienceItems = [
   },
 ]
 
-export const projectCards = [
+export const projects = [
   {
     icon: 'building',
-    title: 'Government Digital Platform',
-    text: 'Unified digital services for government agencies with multi-tenant architecture.',
-    tags: ['.NET Core', 'Angular', 'SQL Server', 'Azure'],
-    metrics: [
-      ['2M+', 'Users'],
-      ['500K+', 'Transactions/Day'],
-      ['99.9%', 'Uptime'],
+    category: 'Real Estate',
+    title: 'Real Estate Management System',
+    period: 'Dec 2019 - Present',
+    summary:
+      'State-of-the-art real estate solutions that organize and manage the real estate market.',
+    highlights: [
+      'Trakheesi for office and broker licensing',
+      'Simsari property listing portal',
+      'Rental dispute center workflows',
+      'Real estate violation system',
     ],
+  },
+  {
+    icon: 'network',
+    category: 'Transport',
+    title: 'Passenger Transportation Management Solutions',
+    period: 'Apr 2017 - Present',
+    summary:
+      'Integrated IT solutions for fixed-route passenger transport, improving planning visibility and lowering running costs through better resource utilization.',
+    highlights: [
+      'Optimized and integrated transport operations',
+      'Transparency for daily planning tasks',
+      'Clear operational overview for planners',
+      'Lower costs through smarter resource use',
+    ],
+    tags: ['Angular 2+', 'HTML5', 'CSS3', 'JavaScript', 'jQuery', 'LESS'],
+  },
+  {
+    icon: 'shield',
+    category: 'Healthcare',
+    title: 'Hospital Management System (FMH)',
+    period: 'Mar 2014',
+    summary:
+      'Healthcare management system focused on structured hospital workflows and day-to-day administration.',
+  },
+  {
+    icon: 'users',
+    category: 'Membership',
+    title: 'Club Management System',
+    period: 'Sep 2013',
+    summary:
+      'Management system for club operations, membership workflows, and routine administrative coordination.',
+  },
+  {
+    icon: 'monitor',
+    category: 'Education',
+    title: 'Student Registration System',
+    period: 'Sep 2010',
+    summary:
+      'Web-based ASP.NET student registration system developed for COMSATS.',
+    tags: ['ASP.NET', 'Web-Based', 'COMSATS'],
   },
   {
     icon: 'shield-badge',
-    title: 'Identity & Access Management',
-    text: 'Secure IAM solution with SSO, MFA, role-based access control, and audit trails.',
-    tags: ['.NET Core', 'React', 'MongoDB', 'Azure'],
-    metrics: [
-      ['1M+', 'Users'],
-      ['99.95%', 'Availability'],
-      ['40%', 'Performance'],
-    ],
-  },
-  {
-    icon: 'cart',
-    title: 'E-Commerce Platform',
-    text: 'Scalable commerce system with payment integration and advanced order analytics.',
-    tags: ['.NET Core', 'Angular', 'SQL Server', 'Redis'],
-    metrics: [
-      ['200K+', 'Orders'],
-      ['1M+', 'Users'],
-      ['35%', 'Performance'],
-    ],
-  },
-  {
-    icon: 'chart',
-    title: 'Data Analytics Dashboard',
-    text: 'Real-time analytics dashboard for business intelligence, KPIs, and reporting.',
-    tags: ['.NET Core', 'React', 'SQL Server', 'Azure'],
-    metrics: [
-      ['10M+', 'Records'],
-      ['50+', 'Reports'],
-      ['60%', 'Faster Insights'],
-    ],
+    category: 'Insurance',
+    title: 'Vehicle Insurance System',
+    period: 'Nov 2009',
+    summary: 'Vehicle insurance system developed in both C# and Java.',
+    tags: ['C#', 'Java'],
   },
 ]
 
@@ -301,25 +319,29 @@ export const contactItems = [
   {
     icon: 'mail',
     title: 'Email',
-    value: 'husnain.ashraf.dev@gmail.com',
+    value: 'lordhusnain@gmail.com',
     href: 'mailto:husnain.ashraf.dev@gmail.com',
+    note: 'Best for project discussions, consulting, and role opportunities.',
   },
   {
     icon: 'phone',
     title: 'Phone',
-    value: '+971 50 123 4567',
-    href: 'tel:+971501234567',
+    value: '+971 56 46 72114',
+    href: 'tel:+971564672114',
+    note: 'Useful for direct conversations and fast coordination.',
   },
   {
     icon: 'pin',
     title: 'Location',
     value: 'Dubai, UAE',
-    href: '#contact',
+    href: 'https://maps.google.com/?q=Dubai,UAE',
+    note: 'Open to on-site, hybrid, and remote collaboration.',
   },
   {
     icon: 'linkedin',
     title: 'LinkedIn',
-    value: 'linkedin.com/in/muhammad-husnain-ashraf',
-    href: 'https://linkedin.com',
+    value: 'linkedin.com/in/muhammad-husnain-ashraf-7b637037',
+    href: 'https://www.linkedin.com/in/muhammad-husnain-ashraf-7b637037/',
+    note: 'A quick way to review experience and start a conversation.',
   },
 ]
